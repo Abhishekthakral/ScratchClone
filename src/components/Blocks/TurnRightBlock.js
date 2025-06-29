@@ -4,7 +4,7 @@ export default function TurnRightBlock({value=15,onValueChange}){
   return(
   <div className="flex items-center bg-blue-500 text-white px-3 py-1.5 rounded text-sm font-semibold gap-2 my-2">
     {"Turn "}
-    <Icon name="redo" size={16} className="text-white mx-2" />
+    <Icon name="redo" size={16} className="text-white mx-2 w-4 h-4" />
     <input
     type="number"
     value={value}

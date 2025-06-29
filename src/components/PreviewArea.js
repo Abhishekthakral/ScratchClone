@@ -127,7 +127,7 @@ export default function PreviewArea({
       top:`${cssTop}px`,
       transform:`rotate(${sprite.rotation-90}deg)`,
       cursor:draggedSpriteId === sprite.id?"grabbing":"grab",
-      border:activeSpriteId === sprite.id?'2px solid blue':'none',
+      border:activeSpriteId === sprite.id?'0px solid':'none',
       zIndex:activeSpriteId === sprite.id?10:1,
       minWidth:'50px', 
       minHeight:'50px',
